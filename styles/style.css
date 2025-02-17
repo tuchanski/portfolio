@@ -108,3 +108,42 @@ header {
     letter-spacing: .15rem;
     font-size: 1.5rem;
 }
+
+/* - Sobre Mim -*/
+
+.about-me {
+    font-family: 'Inter', sans-serif;
+    color: #171D1C;
+    margin-left: 3.75rem;
+    margin-top: 6.25rem;
+}
+
+
+.about-me h2 {
+    color: #171D1C;
+    font-size: 2.5rem;
+    
+}
+
+.about-me p {
+    height: 10.625rem;
+    width: 31.25rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* Adiciona espaçamento */
+
+#about-me-subtext::before {
+    content: "\A\A";
+    white-space: pre;
+}
+
+.about-me-intro {
+    display: flex;
+    gap: 1.125rem;
+}
+
+#underline {
+    text-decoration: underline;
+}
