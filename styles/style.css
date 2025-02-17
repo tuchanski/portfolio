@@ -144,6 +144,14 @@ header {
     gap: 1.125rem;
 }
 
+.about-me-intro img {
+    transition: .3s;
+}
+
+.about-me-intro img:hover {
+    opacity: 0.7;
+}
+
 #underline {
     text-decoration: underline;
 }
