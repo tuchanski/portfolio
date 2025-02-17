@@ -38,6 +38,7 @@ nav a {
     text-decoration: none;
     color: #EFE9F4;
     transition: 0.3s;
+    text-transform: lowercase;
 }
 
 /* Efeito hover nos links */
