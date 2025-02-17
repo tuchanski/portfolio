@@ -1,0 +1,48 @@
+/* Global */
+
+body {
+    font-family: 'Poppins', 'Inter', sans-serif;
+    background-color: #EFE9F4;
+    margin: 0;
+    padding: 0;
+}
+
+/* - Navegação - */
+
+/* Container da navegação */
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.15rem;
+    font-size: 2rem;
+    display: flex;
+    background: #171D1C;
+    height: 6.25rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Lista de itens do menu */
+nav ul {
+    display: flex;
+    gap: 3.125rem;
+    list-style: none;  /* list-style-type removido para list-style */
+    margin-right: 3.125rem;
+}
+
+/* Links do menu */
+nav a {
+    text-decoration: none;
+    color: #EFE9F4;
+    transition: 0.3s;
+}
+
+/* Efeito hover nos links */
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* Logo da navegação */
+nav img {
+    margin-left: 3.125rem;
+}
