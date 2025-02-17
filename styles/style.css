@@ -12,6 +12,7 @@ body {
 /* Container da navegação */
 nav {
     position: fixed;
+    top: 0;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -47,4 +48,61 @@ nav a:hover {
 /* Logo da navegação */
 nav img {
     margin-left: 3.125rem;
+}
+
+/*- Header -*/
+
+header {
+    margin-top: 3.125rem;
+}
+
+.hero {
+    background-color: #797A9E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.25rem;
+}
+
+/* Minha foto de perfil no Hero */
+
+.pfp {
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+}
+
+.pfp:hover {
+    filter: brightness(110%);
+}
+
+/* Estilizando textos do Hero */
+
+.hero h1, h2, h3 {
+    color: #EFE9F4;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-transform: lowercase;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-right: 3.125rem;
+}
+
+.hero h1 span, h3 span {
+    color: #171D1C;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hero h3 {
+    font-weight: 300;
+    letter-spacing: .15rem;
+    font-size: 1.5rem;
 }
