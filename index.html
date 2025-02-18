@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -18,10 +15,10 @@
         <a href="#"><img src="./img/marca.svg" alt="" class="logo"></a>
         <ul class="nav-list">
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Techs</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#Techs">Techs</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Cursos">Cursos</a></li>
+            <li><a href="#Contato">Contato</a></li>
         </ul>
     </nav>
 
@@ -49,8 +46,7 @@
             </p>
         </section>
 
-
-        <section class="techs">
+        <section class="techs" id="Techs">
             <h2>Techs.</h2>
             <div class="techs-imgs">
                 <a href="https://docs.oracle.com/en/java/" target="_blank"><img src="./img/java-icon.svg" alt="Java"></a>
@@ -63,7 +59,8 @@
             </div>
         </section>
 
-       <section class="project-carousel">
+        <!-- Correção aplicada: tag <section> devidamente fechada -->
+        <section class="project-carousel" id="Projetos">
             <h2>Projetos.</h2>
             <p class="carousel-desc">
                 Meus projetos pessoais estão disponíveis via <span><a href="https://github.com/tuchanski" target="_blank">GitHub</a></span>. Sinta-se livre
@@ -141,9 +138,9 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
-       </section>
+        </section>
 
-       <section class="courses">
+       <section class="courses" id="Cursos">
         <h2>Cursos.</h2>
         <div class="text-courses">
             <p>Bacharelado em Ciência da Computação <span>pucpr</span></p>
@@ -157,17 +154,15 @@
             <p>Fundamentos da Orientação a Objetos <span>balta.io</span></p>
             <p>Programação em Python do básico ao avançado <span>Geek University</span></p>
         </div>
-        
        </section>
         
-       <section class="contact">
+       <section class="contact" id="Contato">
         <h2>Contato.</h2>
         <p>tuchanski <a href="https://github.com/tuchanski" target="_blank"><span>github</span></a></p>
         <p>tuchanski <a href="https://www.linkedin.com/in/tuchanski/" target="_blank"><span>linkedin</span></a></p>
         <p>guilherme.tuchanski <a href="https://www.instagram.com/guilherme.tuchanski/" target="_blank"><span>instagram</span></a></p>
         <p>guilherme.tuchanski@gmail.com <a href="mailto:guilherme.tuchanski@gmail.com" target="_blank"><span>email</span></a></p>
        </section>
-       
     </main>
 
     <footer>

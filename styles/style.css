@@ -1,5 +1,10 @@
 /* Global */
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 9.25rem;
+}
+
 body {
     font-family: 'Poppins', 'Inter', sans-serif;
     background-color: #EFE9F4;
@@ -26,11 +31,10 @@ nav {
     z-index: 9999;
 }
 
-/* Lista de itens do menu */
 nav ul {
     display: flex;
     gap: 3.125rem;
-    list-style: none;  /* list-style-type removido para list-style */
+    list-style: none;
     margin-right: 3.125rem;
 }
 
@@ -42,12 +46,10 @@ nav a {
     text-transform: lowercase;
 }
 
-/* Efeito hover nos links */
 nav a:hover {
     opacity: 0.7;
 }
 
-/* Logo da navegação */
 nav img {
     margin-left: 3.125rem;
 }
@@ -116,14 +118,12 @@ header {
     font-family: 'Inter', sans-serif;
     color: #171D1C;
     margin-left: 3.75rem;
-    margin-top: 3.25rem;
+    margin-top: 3.25rem; /* Primeiro espaçamento entre sections, melhor ajustado. */
 }
-
 
 .about-me h2 {
     color: #171D1C;
     font-size: 2.5rem;
-    
 }
 
 .about-me p {
@@ -132,8 +132,6 @@ header {
     font-size: 1.25rem;
     font-weight: 300;
 }
-
-/* Adiciona espaçamento */
 
 #about-me-subtext::before {
     content: "\A\A";
@@ -160,8 +158,8 @@ header {
 /* - Techs - */
 
 .techs h2 {
-    color: #171D1C;
     margin-top: 6.25rem;
+    color: #171D1C;
     margin-left: 3.75rem;
     font-size: 2.5rem;
 }
@@ -294,7 +292,8 @@ header {
 /*- Cursos -*/
 
 .courses {
-    margin-bottom: 12.5rem;
+    margin-bottom: 6.25rem;
+    margin-top: 6.25rem;
 }
 
 .courses h2 {
