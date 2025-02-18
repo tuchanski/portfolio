@@ -193,12 +193,24 @@ header {
     font-size: 2.5rem;
 }
 
+.project-carousel p.carousel-desc {
+    margin-left: 3.75rem;
+    height: 10.625rem;
+    width: 31.25rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.project-carousel p.carousel-desc span {
+    color: #797A9E;
+}
+
 /*SWIPER*/
 
 .swiper {
     width: 56.25rem;
     height: 31.25rem;
-    margin-top: 9.375rem;
     margin-bottom: 9.375rem;
     border-radius: 0.625rem;
   }
