@@ -72,6 +72,7 @@ header {
 /* Minha foto de perfil no Hero */
 
 .pfp {
+    max-width: 100%;
     width: 300px;
     height: 300px;
     transition: 0.3s;
@@ -364,4 +365,146 @@ footer p {
     margin-top: 0;
     font-weight: 200;
     font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1020px) {
+
+    /* - Header -*/
+    .nav-list {
+        display: none;
+    }
+
+    .logo {
+        max-width: 65%;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero h2 {
+        margin-top: 10px;
+    }
+
+    .hero h1 {
+        font-size: clamp(32px, 5vw, 54px);
+        overflow: hidden;
+        text-wrap: balance;
+        text-overflow: ellipsis;
+        margin-left: 20px;
+    }
+
+    .hero h2, .hero h3 {
+        font-size: clamp(12px, 5vw, 16px);
+        overflow: hidden;
+        text-wrap: balance;
+        text-overflow: ellipsis;
+        margin-left: 20px;
+    }
+
+    .hero img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*- SOBRE MIM - */
+
+    .about-me {
+        margin-left: 20px;
+    }
+
+    .about-me img {
+        display: none;
+    }
+
+    .about-me p {
+        font-size: 1.125rem;
+        max-width: 90%;
+        height: auto;
+    }
+
+    /*- Techs -*/
+
+    .techs h2 {
+        margin-left: 20px;
+        margin-top: 3.25rem;
+    }
+
+    .techs-imgs {
+        display: grid;
+        max-width: 100%;
+        height: auto;
+        margin-top: 3.25rem;
+        margin-bottom: 0;
+    }
+
+    /*- Projetos -*/
+
+    .project-carousel h2 {
+        margin-top: 3.25rem;
+    }
+
+    .project-carousel h2, .project-carousel p.carousel-desc {
+        margin-left: 20px;
+    }
+
+    .project-carousel p.carousel-desc {
+        max-width: 90%;
+        font-size: 1.125rem;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .swiper {
+        max-width: 85%;
+        max-height: 25%;
+        margin-bottom: 0;
+    }
+
+    /*- Cursos -*/
+
+    .courses {
+        margin: 0;
+    }
+
+    .courses h2 {
+        margin-top: 3.25rem;
+        margin-left: 20px;
+    }
+
+    .courses p {
+        margin-left: 20px;
+        max-width: 90%;
+        height: auto;
+        font-size: 1.125rem;
+    }
+
+    /*- Contato -*/
+
+    .contact {
+        max-height: 50%;
+    }
+
+    .contact h2 {
+        margin-top: 3.25rem;
+        margin-left: 20px;
+    }
+
+    .contact p {
+        max-width: 90%;
+        margin-left: 20px;
+        font-size: 1.125rem;
+    }
+
+    /*- Footer -*/
+
+    footer p {
+        font-size: clamp(12px, 5vw, 32px);
+        overflow: hidden;
+        text-wrap: balance;
+        text-overflow: ellipsis;
+    }
+
 }
