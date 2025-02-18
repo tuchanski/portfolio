@@ -202,8 +202,15 @@ header {
     margin-bottom: 0;
 }
 
-.project-carousel p.carousel-desc span {
+.project-carousel p.carousel-desc a {
+    text-decoration: none;
     color: #797A9E;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.project-carousel p.carousel-desc a:hover {
+    opacity: 0.7;
 }
 
 /*SWIPER*/
