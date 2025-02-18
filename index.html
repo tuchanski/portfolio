@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
 
@@ -47,7 +51,6 @@
 
         <section class="techs">
             <h2>Techs.</h2>
-
             <div class="techs-imgs">
                 <a href="https://docs.oracle.com/en/java/" target="_blank"><img src="./img/java-icon.svg" alt="Java"></a>
                 <a href="https://docs.spring.io/spring-boot/index.html" target="_blank"><img src="./img/springboot-icon.svg" alt="Spring Boot"></a>
@@ -55,12 +58,59 @@
                 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="./img/css-icon.svg" alt="CSS"></a>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="./img/javascript-icon.svg" alt="JavaScript"></a>
                 <a href="https://docs.python.org/3/" target="_blank"><img src="./img/python-icon.png" alt="Python"></a>
-                <a href="https://dev.mysql.com/doc/" target="_blank"><img src="./img/sql-icon.svg" alt="SQL"></a>
+                <a href="" target="_blank"><img src="./img/sql-icon.svg" alt="SQL"></a>
+            </div>
+        </section>
+
+       <section class="project-carousel">
+            <h2>Projetos.</h2>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="get-on-git">
+                        <a href="https://github.com/tuchanski/easylib" target="_blank">
+                            <p>Easy<span>Lib</span> API</p>
+                        </a>
+                    </div>
+                    <img src="./img/project-slider/Library.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="get-on-git">
+                        <a href="https://github.com/tuchanski/gerenciamento-de-carros" target="_blank">
+                            <p>Gerenciamento <span>de</span> Carros</p>
+                        </a>
+                    </div>
+                    <img src="./img/project-slider/Gerenciameento de Carros.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="get-on-git">
+                        <a href="https://github.com/tuchanski/dino-zoo-tycoon" target="_blank">
+                            <p>Dino <span>Zoo</span> Tycoon</p>
+                        </a>
+                    </div>
+                    <img src="./img/project-slider/DinoZooTycoon.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="get-on-git">
+                        <a href="https://github.com/tuchanski/vending-machine" target="_blank">
+                            <p>Vending <span>Machine</span></p>
+                        </a>
+                    </div>
+                    <img src="./img/project-slider/Vending Machine.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
 
-        </section>
+       </section>
         
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
     
 </body>
 </html>

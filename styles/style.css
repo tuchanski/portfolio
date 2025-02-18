@@ -23,6 +23,7 @@ nav {
     height: 6.25rem;
     align-items: center;
     justify-content: space-between;
+    z-index: 9999;
 }
 
 /* Lista de itens do menu */
@@ -181,4 +182,93 @@ header {
 
 .techs-imgs img:hover {
     opacity: 0.7;
+}
+
+/* Carrossel de Projetos */
+
+.project-carousel h2 {
+    color: #171D1C;
+    margin-top: 6.25rem;
+    margin-left: 3.75rem;
+    font-size: 2.5rem;
+}
+
+/*SWIPER*/
+
+.swiper {
+    width: 56.25rem;
+    height: 31.25rem;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
+    border-radius: 0.625rem;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-weight: bolder;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #EFE9F4 !important;
+}
+
+/* bolinhas normais */
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #aaa;
+    opacity: 0.5;
+}
+  
+  /* bolinha ativa */
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #EFE9F4;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Estilização dos cards do projeto */
+
+.get-on-git {
+    height: 6.25rem;
+    width: 100%;
+    margin: 0;
+    background-color: #797A9E;
+    border: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.get-on-git:hover {
+    opacity: 0.7;
+}
+
+.get-on-git p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.get-on-git p span {
+    color: #171D1C;
+}
+
+.get-on-git a {
+    width: inherit;
+    text-decoration: none;
+    color: #EFE9F4;
 }
