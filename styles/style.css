@@ -218,7 +218,6 @@ header {
 .swiper {
     width: 56.25rem;
     height: 31.25rem;
-    margin-bottom: 9.375rem;
     border-radius: 0.625rem;
   }
 
@@ -290,4 +289,80 @@ header {
     width: inherit;
     text-decoration: none;
     color: #EFE9F4;
+}
+
+/*- Cursos -*/
+
+.courses {
+    margin-bottom: 12.5rem;
+}
+
+.courses h2 {
+    margin-top: 12.5rem;
+    color: #171D1C;
+    margin-left: 3.75rem;
+    font-size: 2.5rem;
+}
+
+.courses p {
+    margin-left: 3.75rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.courses p span {
+    color: #797A9E;
+}
+
+.text-courses {
+    margin-top: 0rem;
+}
+
+/*- Contato -*/
+
+.contact {
+    width: 100%;
+    height: 500px;
+    background-color: #797A9E;
+}
+
+.contact h2 {
+    color: #EFE9F4;
+    margin-left: 3.75rem;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.contact p {
+    color: #EFE9F4;
+    margin-left: 3.75rem;
+    font-size: 1.25rem;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #171D1C;
+    transition: 0.3s;
+}
+
+.contact p a:hover {
+    color: #EFE9F4;
+}
+
+/*- Footer -*/
+
+footer {
+    max-width: 100%;
+    height: 100px;
+    background-color: #171D1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #EFE9F4;
+    margin-top: 0;
+    font-weight: 200;
+    font-size: 1.25rem;
 }
