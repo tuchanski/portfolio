@@ -396,8 +396,16 @@ footer p {
         margin-left: 20px;
     }
 
-    .hero h2, .hero h3 {
+    .hero h2 {
         font-size: clamp(12px, 5vw, 16px);
+        overflow: hidden;
+        text-wrap: balance;
+        text-overflow: ellipsis;
+        margin-left: 20px;
+    }
+
+    .hero h3 {
+        font-size: clamp(10px, 5vw, 13px);
         overflow: hidden;
         text-wrap: balance;
         text-overflow: ellipsis;
