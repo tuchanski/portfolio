@@ -372,7 +372,7 @@ footer p {
     text-transform: lowercase;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
 
     /* - Header -*/
     
@@ -519,10 +519,17 @@ footer p {
 
     .techs-imgs {
         display: grid;
-        max-width: 100%;
-        height: auto;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-top: 3.25rem;
         margin-bottom: 0;
+    }
+
+    .techs-imgs a {
+        margin-left: 20px;
+    }
+
+    .techs-imgs a img {
+        max-width: 80%;
     }
 
     /*- Projetos -*/
@@ -586,7 +593,7 @@ footer p {
     /*- Footer -*/
 
     footer p {
-        font-size: clamp(12px, 5vw, 32px);
+        font-size: clamp(8px, 5vw, 1.125rem);
         overflow: hidden;
         text-wrap: balance;
         text-overflow: ellipsis;
