@@ -1,3 +1,6 @@
+
+// Swiper
+
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
@@ -14,3 +17,16 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
     },
 });
+
+// Menu Hamburger
+
+const btnMobile = document.getElementById("btn-mobile");
+
+function toggleMenu(event) {
+    if (event.type === 'touchstart') event.preventDefault();
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+}
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
