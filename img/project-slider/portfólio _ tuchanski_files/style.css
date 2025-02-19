@@ -387,12 +387,10 @@ footer p {
         transition: .7s;
         visibility: hidden;
         overflow-y: auto;
-        padding-inline-start: 0;
     }
 
     #menu a {
         border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-        margin-left: 20px;
     }
 
     #btn-mobile {
@@ -423,31 +421,12 @@ footer p {
         height: 2px;
         background-color: #EFE9F4;
         margin-top: 5px;
-        transition: .7s;
-        position: relative;
     }
 
     #nav.active #menu {
         display: block;
         visibility: visible;
         height: calc(100vh - 6.25rem);
-    }
-
-    #nav.active #hamburger {
-        transition: .7s;
-    }
-
-    #nav.active #hamburger {
-        border-top-color: transparent;
-    }
-
-    #nav.active #hamburger::before {
-        transform: rotate(135deg);
-    }
-
-    #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
     }
 
     .logo {
@@ -590,4 +569,5 @@ footer p {
         text-wrap: balance;
         text-overflow: ellipsis;
     }
+
 }
