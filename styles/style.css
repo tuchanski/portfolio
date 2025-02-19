@@ -482,7 +482,8 @@ footer p {
     }
 
     .hero h3 {
-        font-size: clamp(10px, 5vw, 13px);
+        font-size: clamp(12px, 5vw, 14px);
+        font-weight: 400;
         overflow: hidden;
         text-wrap: balance;
         text-overflow: ellipsis;
