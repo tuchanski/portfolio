@@ -190,6 +190,8 @@ header {
 
 .techs-imgs img:hover {
     opacity: 0.7;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Carrossel de Projetos */
