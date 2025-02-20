@@ -79,6 +79,7 @@ header {
     justify-content: center;
     height: 31.25rem;
     margin-top: 6.25rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .pfp {
@@ -98,6 +99,7 @@ header {
     margin: 0;
     font-family: 'Inter', sans-serif;
     text-transform: lowercase;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1);
 }
 
 .hero h1 {
