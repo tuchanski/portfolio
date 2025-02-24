@@ -588,6 +588,10 @@ footer p {
         margin-bottom: 0;
     }
 
+    .get-on-git .content img {
+        display: none;
+    }
+
     /*- Cursos -*/
 
     .courses {
