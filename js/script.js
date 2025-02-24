@@ -28,5 +28,14 @@ function toggleMenu(event) {
     nav.classList.toggle('active');
 }
 
+const menuItems = document.querySelectorAll('#nav a');
+
+menuItems.forEach(item => {
+    item.addEventListener('click', () => {
+        const nav = document.getElementById('nav');
+        nav.classList.remove('active');
+    });
+});
+
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
