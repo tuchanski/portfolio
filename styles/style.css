@@ -396,11 +396,12 @@ footer p {
 @media screen and (max-width: 1370px) {
     .techs-imgs {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr auto;
     }
 
     .techs-imgs a {
         margin-left: 3.75rem;
+        margin-right: 3.75rem;
     }
 }
 
