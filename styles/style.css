@@ -564,6 +564,7 @@ footer p {
 
     .techs-imgs a {
         margin-left: 20px;
+        margin-right: 0;
     }
 
     .techs-imgs a img {
