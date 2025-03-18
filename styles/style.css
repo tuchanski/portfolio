@@ -419,6 +419,10 @@ footer p {
         font-size: 4vw !important;
     }
 
+    .carousel-name-item {
+        font-size: 7vw !important;
+    }
+
     /* - Header -*/
     
     #menu.nav-list {
