@@ -411,6 +411,14 @@ footer p {
         scroll-padding-top: 7.25rem;
     }
 
+    h2 {
+        font-size: 8vw !important;
+    }
+
+    p {
+        font-size: 4vw !important;
+    }
+
     /* - Header -*/
     
     #menu.nav-list {
@@ -511,7 +519,7 @@ footer p {
     }
 
     .hero h2 {
-        font-size: clamp(12px, 5vw, 16px);
+        font-size: clamp(12px, 5vw, 16px) !important;
         overflow: hidden;
         text-wrap: balance;
         text-overflow: ellipsis;
