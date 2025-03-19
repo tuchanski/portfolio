@@ -405,12 +405,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 1140px) {
-
-    html {
-        scroll-padding-top: 7.25rem;
-    }
-
+@media screen and (max-width: 600px) {
     h2 {
         font-size: 8vw !important;
     }
@@ -421,6 +416,13 @@ footer p {
 
     .carousel-name-item {
         font-size: 7vw !important;
+    }
+}
+
+@media screen and (max-width: 1208px) {
+
+    html {
+        scroll-padding-top: 7.25rem;
     }
 
     /* - Header -*/
