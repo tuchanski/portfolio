@@ -372,6 +372,20 @@ header {
     color: #EFE9F4;
 }
 
+#link-course {
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+}
+
+#link-course:hover{
+    color: #797A9E;
+}
+
+#in-progress {
+    font-size: .85rem;
+}
+
 /*- Footer -*/
 
 footer {
