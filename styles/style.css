@@ -555,6 +555,11 @@ footer p {
         margin-left: 20px;
     }
 
+    #mbl-breakpoint::after {
+        content: "\a";
+        display: block;
+    }
+
     .hero img {
         max-width: 100%;
         height: auto;
