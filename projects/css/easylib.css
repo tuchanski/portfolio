@@ -250,6 +250,10 @@ p {
         background-color: #797A9E;
     }
 
+    .container {
+        margin-top: 2.25rem;
+    }
+
     h1 {
         font-size: 35px;
         text-align: center;
