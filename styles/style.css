@@ -532,7 +532,7 @@ footer p {
     }
 
     .hero h1 {
-        font-size: clamp(32px, 5vw, 54px);
+        font-size: clamp(40px, 5vw, 54px);
         overflow: hidden;
         text-wrap: balance;
         text-overflow: ellipsis;
@@ -540,7 +540,7 @@ footer p {
     }
 
     .hero h2 {
-        font-size: clamp(12px, 5vw, 16px) !important;
+        font-size: clamp(16px, 5vw, 20px) !important;
         overflow: hidden;
         text-wrap: balance;
         text-overflow: ellipsis;
@@ -548,7 +548,7 @@ footer p {
     }
 
     .hero h3 {
-        font-size: clamp(12px, 5vw, 14px);
+        font-size: clamp(16px, 5vw, 20px);
         font-weight: 400;
         overflow: hidden;
         text-wrap: balance;
@@ -562,7 +562,7 @@ footer p {
     }
 
     .hero img {
-        max-width: 50%;
+        max-width: 60%;
         height: auto;
     }
 
