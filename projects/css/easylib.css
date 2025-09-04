@@ -252,14 +252,25 @@ p {
 
     h1 {
         font-size: 35px;
+        text-align: center;
     }
 
     p {
         margin-right: 0;
     }
 
+    .button {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
     .container img {
         display: none;
+    }
+
+    p {
+        text-align: center;
     }
    
 } 
