@@ -129,7 +129,7 @@ p {
     color: #797A9E;
 }
 
-@media screen and (max-width: 1208px) {
+@media screen and (max-width: 1209px) {
 
     html {
         scroll-padding-top: 7.25rem;
@@ -236,13 +236,8 @@ p {
     }
 
     .container img {
-        width: 100%;
-        min-width: auto;
-        max-width: 500px;
+        display: none;
     }
-}
-
-@media screen and (max-width: 950px) {
 
     body {
         background-color: #797A9E;
@@ -269,10 +264,11 @@ p {
 
     .container img {
         display: none;
+        margin: 0;
     }
 
     p {
         text-align: center;
     }
-   
-} 
+}
+ 
