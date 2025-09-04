@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tuchanski | ZapZap LoveBot</title>
+    <link rel="stylesheet" href="./css/projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="nav">
+        <a href="../index.html"><img src="../img/marca.svg" alt="" class="logo"></a>
+        <button id="btn-mobile"><span id="hamburger"></span></button>
+        <ul class="nav-list" id="menu">
+            <li><a href="../index.html#sobre">Sobre</a></li>
+            <li><a href="../index.html#techs">Techs</a></li>
+            <li><a href="../index.html#projetos">Projetos</a></li>
+            <li><a href="../index.html#educacao">Educação</a></li>
+            <li><a href="../index.html#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="text-block">
+            <h1>ZapZap <span id="api">Easy</span>Bot</h1>
+            <p id="desc">
+                Um bot simples, fofo e automatizado que usa <span id="underline">inteligência artificial</span> 
+                para gerar mensagens carinhosas e enviá-las pelo <span id="underline">WhatsApp</span>.
+                Ideal para impressionar sua namorada.
+            </p>
+            <p>
+                <span id="techs">techs:</span> <span>Python, Flask & React</span>
+            </p>
+            <div class="button">
+                <a href="https://github.com/tuchanski/zapzap-lovebot" target="_blank" id="github-button">Repositório GitHub</a>
+            </div>
+        </div>
+        <img src="../img/projects/ZapZapLoveBot.svg" alt="">
+    </div>
+
+    <script>
+        const btnMobile = document.getElementById("btn-mobile");
+
+        function toggleMenu(event) {
+            if (event.type === 'touchstart') event.preventDefault();
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+        }
+
+        const menuItems = document.querySelectorAll('#nav a');
+
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const nav = document.getElementById('nav');
+                nav.classList.remove('active');
+            });
+        });
+
+        btnMobile.addEventListener('click', toggleMenu);
+        btnMobile.addEventListener('touchstart', toggleMenu);
+    </script>
+
+</body>
+</html>
