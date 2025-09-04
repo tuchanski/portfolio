@@ -216,4 +216,54 @@ p {
         height: auto;
         margin-left: 20px;
     }
+
+    .container {
+        margin-top: 6.25rem;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        justify-content: center;
+        align-items: center;
+        background-color: #797A9E;
+        padding: 20px;
+        box-sizing: border-box;
+        padding: 0;
+        padding: 20px;
+    }
+
+    .container a {
+        display: inline-block;
+    }
+
+    .container img {
+        width: 100%;
+        min-width: auto;
+        max-width: 500px;
+        border-radius: 10px;
+    }
+
 }
+
+
+@media screen and (max-width: 920px) {
+
+    body {
+        background-color: #797A9E;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        margin-right: 0;
+    }
+
+    .container img {
+        display: none;
+    }
+   
+} 
