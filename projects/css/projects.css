@@ -266,4 +266,15 @@ p {
         display: flex;
         justify-content: center;
     }
+
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 }
