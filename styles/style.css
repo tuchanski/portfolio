@@ -619,7 +619,7 @@ footer p {
 
   .techs-imgs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     margin-top: 3.25rem;
     margin-bottom: 0;
   }
