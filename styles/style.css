@@ -378,8 +378,23 @@ h3 span {
   transition: 0.3s;
 }
 
-.contact p a:hover {
-  color: #efe9f4;
+.contact-item {
+  background-color: #efe9f4;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  margin-left: 5px;
+}
+
+.contact-item img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.contact-item:hover {
+  background-color: #d4d0d8;
 }
 
 .link-course {
