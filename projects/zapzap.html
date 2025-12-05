@@ -14,53 +14,34 @@
         <a href="../index.html"><img src="../img/marca.svg" alt="" class="logo"></a>
         <button id="btn-mobile"><span id="hamburger"></span></button>
         <ul class="nav-list" id="menu">
-            <li><a href="../index.html#sobre">Sobre</a></li>
-            <li><a href="../index.html#techs">Techs</a></li>
-            <li><a href="../index.html#projetos">Projetos</a></li>
-            <li><a href="../index.html#educacao">Educação</a></li>
-            <li><a href="../index.html#contato">Contato</a></li>
+            <li><a href="../index.html#sobre"><span data-i18n=\"nav.about\">Sobre</span></a></li>
+            <li><a href="../index.html#techs"><span data-i18n=\"nav.techs\">Techs</span></a></li>
+            <li><a href="../index.html#projetos"><span data-i18n=\"nav.projects\">Projetos</span></a></li>
+            <li><a href="../index.html#educacao"><span data-i18n=\"nav.education\">Educação</span></a></li>
+            <li><a href="../index.html#contato"><span data-i18n=\"nav.contact\">Contato</span></a></li>
+            <li><button id="lang-btn" class="nav-lang" aria-label="Mudar idioma">EN</button></li>
         </ul>
     </nav>
 
     <div class="container">
         <div class="text-block">
-            <h1>ZapZap <span id="api">Love</span>Bot 💚</h1>
-            <p id="desc">
+            <h1 data-i18n="project.zapzap.title">ZapZap <span id="api">Love</span>Bot 💚</h1>
+            <p id="desc" data-i18n="project.zapzap.desc">
                 Um bot simples, fofo e automatizado que usa <span id="underline">inteligência artificial</span> 
                 para gerar mensagens carinhosas e enviá-las pelo <span id="underline">WhatsApp</span>.
                 Ideal para impressionar sua namorada.
             </p>
             <p>
-                <span id="techs">techs:</span> <span>Python, Flask & React</span>
+                <span id="techs" data-i18n="project.techsLabel">techs:</span> <span>Python, Flask & React</span>
             </p>
             <div class="button">
-                <a href="https://github.com/tuchanski/zapzap-lovebot" target="_blank" id="github-button">Repositório GitHub</a>
+                <a href="https://github.com/tuchanski/zapzap-lovebot" target="_blank" id="github-button" data-i18n="project.repoBtn">Repositório GitHub</a>
             </div>
         </div>
         <img src="../img/projects/ZapZapLoveBot.svg" alt="">
     </div>
 
-    <script>
-        const btnMobile = document.getElementById("btn-mobile");
-
-        function toggleMenu(event) {
-            if (event.type === 'touchstart') event.preventDefault();
-            const nav = document.getElementById('nav');
-            nav.classList.toggle('active');
-        }
-
-        const menuItems = document.querySelectorAll('#nav a');
-
-        menuItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const nav = document.getElementById('nav');
-                nav.classList.remove('active');
-            });
-        });
-
-        btnMobile.addEventListener('click', toggleMenu);
-        btnMobile.addEventListener('touchstart', toggleMenu);
-    </script>
+    <script src="../js/script.js"></script>
 
 </body>
 </html>

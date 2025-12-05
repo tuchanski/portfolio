@@ -1,64 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tuchanski | EasyLib</title>
-    <link rel="stylesheet" href="./css/projects.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav id="nav">
-        <a href="../index.html"><img src="../img/marca.svg" alt="" class="logo"></a>
-        <button id="btn-mobile"><span id="hamburger"></span></button>
-        <ul class="nav-list" id="menu">
-            <li><a href="../index.html#sobre">Sobre</a></li>
-            <li><a href="../index.html#techs">Techs</a></li>
-            <li><a href="../index.html#projetos">Projetos</a></li>
-            <li><a href="../index.html#educacao">Educação</a></li>
-            <li><a href="../index.html#contato">Contato</a></li>
-        </ul>
+      <a href="../index.html"
+        ><img src="../img/marca.svg" alt="" class="logo"
+      /></a>
+      <button id="btn-mobile"><span id="hamburger"></span></button>
+      <ul class="nav-list" id="menu">
+        <li>
+          <a href="../index.html#sobre"
+            ><span data-i18n="nav.about">Sobre</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#techs"
+            ><span data-i18n="nav.techs">Techs</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#projetos"
+            ><span data-i18n="nav.projects">Projetos</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#educacao"
+            ><span data-i18n="nav.education">Educação</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#contato"
+            ><span data-i18n="nav.contact">Contato</span></a
+          >
+        </li>
+        <li>
+          <button id="lang-btn" class="nav-lang" aria-label="Mudar idioma">
+            EN
+          </button>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">
-        <div class="text-block">
-            <h1>EasyLib <span id="api">API</span> 📚</h1>
-            <p id="desc">
-                <span>EasyLib</span> é uma API de gerenciamento de biblioteca pessoal, projetada para <span id="underline">ajudar</span> os usuários a organizar suas coleções de livros pessoais e <span id="underline">gerenciar</span> sua biblioteca com facilidade.
-            </p>
-            <p>
-                <span id="techs">techs:</span> <span>Java, Spring Boot & PostgreSQL</span>
-            </p>
-            <div class="button">
-                <a href="https://github.com/tuchanski/easylib" target="_blank" id="github-button">Repositório GitHub</a>
-            </div>
+      <div class="text-block">
+        <h1 data-i18n="project.easylib.title">
+          EasyLib <span id="api">API</span> 📚
+        </h1>
+        <p id="desc" data-i18n="project.easylib.desc">
+          <span>EasyLib</span> é uma API de gerenciamento de biblioteca pessoal,
+          projetada para <span id="underline">ajudar</span> os usuários a
+          organizar suas coleções de livros pessoais e
+          <span id="underline">gerenciar</span> sua biblioteca com facilidade.
+        </p>
+        <p>
+          <span id="techs" data-i18n="project.techsLabel">techs:</span>
+          <span>Java, Spring Boot & PostgreSQL</span>
+        </p>
+        <div class="button">
+          <a
+            href="https://github.com/tuchanski/easylib"
+            target="_blank"
+            id="github-button"
+            data-i18n="project.repoBtn"
+            >Repositório GitHub</a
+          >
         </div>
-        <img src="../img/projects/EasyLibSVG.svg" alt="">
+      </div>
+      <img src="../img/projects/EasyLibSVG.svg" alt="" />
     </div>
 
-    <script>
-        const btnMobile = document.getElementById("btn-mobile");
-
-        function toggleMenu(event) {
-            if (event.type === 'touchstart') event.preventDefault();
-            const nav = document.getElementById('nav');
-            nav.classList.toggle('active');
-        }
-
-        const menuItems = document.querySelectorAll('#nav a');
-
-        menuItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const nav = document.getElementById('nav');
-                nav.classList.remove('active');
-            });
-        });
-
-        btnMobile.addEventListener('click', toggleMenu);
-        btnMobile.addEventListener('touchstart', toggleMenu);
-    </script>
-
-</body>
+    <script src="../js/script.js"></script>
+  </body>
 </html>
