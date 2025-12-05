@@ -1,7 +1,7 @@
 
 # Portfolio 💼
 
-This repo storages my personal portfolio, currently only available in PT-BR.
+This repo storages my personal portfolio.
 
 ## Deploy
 
