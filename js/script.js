@@ -60,6 +60,16 @@ btnMobile.addEventListener("touchstart", toggleMenu);
         'Meus projetos pessoais estão disponíveis via <span><a href="https://github.com/tuchanski" target="_blank">GitHub</a></span>. Sinta-se livre para visitá-los.',
       "courses.title": "Educação.",
       "contact.title": "Contato.",
+      // Courses section
+      "courses.degree": "Bacharelado em Ciência da Computação",
+      "courses.htmlcss": "HTML e CSS para Iniciantes",
+      "courses.uidesign": "UI Design para Iniciantes",
+      "courses.javaoop":
+        "Java COMPLETO: Programação Orientada a Objetos + Projetos",
+      "courses.springboot": "Spring Boot for Beginners",
+      "courses.datastructures": "Estrutura de Dados com Java",
+      "courses.sqlserver": "Fundamentos do SQL Server",
+      "courses.oopfundamentals": "Fundamentos da Orientação a Objetos",
       // Project pages
       "project.repoBtn": "Repositório GitHub",
       "project.techsLabel": "techs:",
@@ -110,6 +120,16 @@ btnMobile.addEventListener("touchstart", toggleMenu);
         'My personal projects are available on <span><a href="https://github.com/tuchanski" target="_blank">GitHub</a></span>. Feel free to check them out.',
       "courses.title": "Education.",
       "contact.title": "Contact.",
+      // Courses section
+      "courses.degree": "Bachelor of Computer Science",
+      "courses.htmlcss": "HTML and CSS for Beginners",
+      "courses.uidesign": "UI Design for Beginners",
+      "courses.javaoop":
+        "Java COMPLETE: Object-Oriented Programming + Projects",
+      "courses.springboot": "Spring Boot for Beginners",
+      "courses.datastructures": "Data Structures with Java",
+      "courses.sqlserver": "SQL Server Fundamentals",
+      "courses.oopfundamentals": "Object-Oriented Programming Fundamentals",
       // Project pages
       "project.repoBtn": "GitHub Repository",
       "project.techsLabel": "techs:",
