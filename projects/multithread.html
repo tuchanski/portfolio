@@ -21,30 +21,61 @@
       /></a>
       <button id="btn-mobile"><span id="hamburger"></span></button>
       <ul class="nav-list" id="menu">
-        <li><a href="../index.html#sobre">Sobre</a></li>
-        <li><a href="../index.html#techs">Techs</a></li>
-        <li><a href="../index.html#projetos">Projetos</a></li>
-        <li><a href="../index.html#educacao">Educação</a></li>
-        <li><a href="../index.html#contato">Contato</a></li>
+        <li>
+          <a href="../index.html#sobre"
+            ><span data-i18n="nav.about">Sobre</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#techs"
+            ><span data-i18n="nav.techs">Techs</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#projetos"
+            ><span data-i18n="nav.projects">Projetos</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#educacao"
+            ><span data-i18n="nav.education">Educação</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#contato"
+            ><span data-i18n="nav.contact">Contato</span></a
+          >
+        </li>
+        <li>
+          <button id="lang-btn" class="nav-lang" aria-label="Mudar idioma">
+            EN
+          </button>
+        </li>
       </ul>
     </nav>
 
     <div class="container">
       <div class="text-block">
-        <h1>Multithread <span id="api">File</span>Reading 🧵</h1>
-        <p id="desc">
+        <h1 data-i18n="project.multithread.title">
+          Multithread <span id="api">File</span>Reading 🧵
+        </h1>
+        <p id="desc" data-i18n="project.multithread.desc">
           Uma aplicação Java que conta a frequência de cada letra (a–z) em
           vários arquivos de texto, utilizando multithreading. O programa
           processa cada arquivo em uma thread separada para acelerar o processo
           de contagem, com sincronização entre threads para lidar com as
           atualizações concorrentes na estrutura de dados compartilhada.
         </p>
-        <p><span id="techs">techs:</span> <span>Java</span></p>
+        <p>
+          <span id="techs" data-i18n="project.techsLabel">techs:</span>
+          <span>Java</span>
+        </p>
         <div class="button">
           <a
             href="https://github.com/tuchanski/multithread-file-reading"
             target="_blank"
             id="github-button"
+            data-i18n="project.repoBtn"
             >Repositório GitHub</a
           >
         </div>
@@ -52,26 +83,6 @@
       <img src="../img/project-slider/Multithread File Reading.jpg" alt="" />
     </div>
 
-    <script>
-      const btnMobile = document.getElementById("btn-mobile");
-
-      function toggleMenu(event) {
-        if (event.type === "touchstart") event.preventDefault();
-        const nav = document.getElementById("nav");
-        nav.classList.toggle("active");
-      }
-
-      const menuItems = document.querySelectorAll("#nav a");
-
-      menuItems.forEach((item) => {
-        item.addEventListener("click", () => {
-          const nav = document.getElementById("nav");
-          nav.classList.remove("active");
-        });
-      });
-
-      btnMobile.addEventListener("click", toggleMenu);
-      btnMobile.addEventListener("touchstart", toggleMenu);
-    </script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

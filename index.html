@@ -1,244 +1,404 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfólio | tuchanski</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="shortcut icon" type="image/svg+xml" href="./img/Igloo_Emoticon.webp">
-</head>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/svg+xml"
+      href="./img/Igloo_Emoticon.webp"
+    />
+  </head>
 
-<body>
-
+  <body>
     <nav id="nav">
-        <a href=""><img src="./img/marca.svg" alt="" class="logo"></a>
-        <button id="btn-mobile"><span id="hamburger"></span></button>
-        <ul class="nav-list" id="menu">
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#techs">Techs</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#educacao">Educação</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+      <a href=""><img src="./img/marca.svg" alt="" class="logo" /></a>
+      <button id="btn-mobile"><span id="hamburger"></span></button>
+      <ul class="nav-list" id="menu">
+        <li>
+          <a href="#sobre"><span data-i18n="nav.about">Sobre</span></a>
+        </li>
+        <li>
+          <a href="#techs"><span data-i18n="nav.techs">Techs</span></a>
+        </li>
+        <li>
+          <a href="#projetos"><span data-i18n="nav.projects">Projetos</span></a>
+        </li>
+        <li>
+          <a href="#educacao"
+            ><span data-i18n="nav.education">Educação</span></a
+          >
+        </li>
+        <li>
+          <a href="#contato"><span data-i18n="nav.contact">Contato</span></a>
+        </li>
+        <li>
+          <button id="lang-btn" class="nav-lang" aria-label="Mudar idioma">
+            EN
+          </button>
+        </li>
+      </ul>
     </nav>
 
     <header>
-        <div class="hero" id="sobre">
-            <div class="introduction-text">
-                <h2>Olá, meu nome é</h2>
-                <h1>Guilherme <span>Tuchanski</span></h1>
-                <h3>Desenvolvedor <span>Full-Stack</span><span id="mbl-breakpoint"></span>
-            </div>
-            <img src="./img/perfil.jpg" alt="" class="pfp">
+      <div class="hero" id="sobre">
+        <div class="introduction-text">
+          <h2 data-i18n="hero.greeting">Olá, meu nome é</h2>
+          <h1>Guilherme <span>Tuchanski</span></h1>
+          <h3 data-i18n="hero.role">
+            Desenvolvedor <span>Full-Stack</span
+            ><span id="mbl-breakpoint"></span>
+          </h3>
         </div>
+        <img src="./img/perfil.jpg" alt="" class="pfp" />
+      </div>
     </header>
 
     <main>
-        <section class="about-me">
-            <div class="about-me-intro">
-                <h2>Sobre mim.</h2>
-                <a href="./utils/Currículo Guilherme Tuchanski Rocha.pdf" download="Currículo Guilherme Tuchanski Rocha.pdf"><img src="./img/download-cv.svg" alt=""></a>
+      <section class="about-me">
+        <div class="about-me-intro">
+          <h2 data-i18n="about.title">Sobre mim.</h2>
+          <a
+            href="./utils/Currículo Guilherme Tuchanski Rocha.pdf"
+            download="Currículo Guilherme Tuchanski Rocha.pdf"
+            ><img src="./img/download-cv.svg" alt=""
+          /></a>
+        </div>
+        <p data-i18n="about.body">
+          Desenvolvedor Full-Stack com experiência em Java, Python,
+          JavaScript/TypeScript, Spring Boot, Flask, React, SQL e APIs REST.
+          Estudante de Ciência da Computação pela PUCPR no 5° período.<br /><br />
+          Meu objetivo é aplicar tecnologia de forma criativa e eficiente,
+          contribuindo com projetos que gerem valor para a sociedade.
+        </p>
+      </section>
+
+      <section class="techs" id="techs">
+        <h2>Techs.</h2>
+        <div class="techs-imgs">
+          <a href="https://www.java.com/pt-BR/" target="_blank"
+            ><img src="./img/techs-icons/java-icon.svg" alt="Java"
+          /></a>
+          <a href="https://spring.io/projects/spring-boot" target="_blank"
+            ><img src="./img/techs-icons/springboot-icon.svg" alt="Spring Boot"
+          /></a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            ><img src="./img/techs-icons/html-icon.svg" alt="HTML"
+          /></a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+            ><img src="./img/techs-icons/css-icon.svg" alt="CSS"
+          /></a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            ><img src="./img/techs-icons/javascript-icon.svg" alt="JavaScript"
+          /></a>
+          <a href="https://react.dev/" target="_blank"
+            ><img src="./img/techs-icons/react.svg" alt="React"
+          /></a>
+          <a href="https://www.python.org/" target="_blank"
+            ><img src="./img/techs-icons/python-icon.svg" alt="Python"
+          /></a>
+          <a href="https://www.mysql.com/" target="_blank"
+            ><img src="./img/techs-icons/sql-icon.svg" alt="SQL"
+          /></a>
+          <a href="https://www.figma.com/" target="_blank"
+            ><img src="./img/techs-icons/figma-icon.svg" alt="Figma"
+          /></a>
+        </div>
+      </section>
+
+      <section class="project-carousel" id="projetos">
+        <h2 data-i18n="projects.title">Projetos.</h2>
+        <p class="carousel-desc" data-i18n="projects.desc">
+          Meus projetos pessoais estão disponíveis via
+          <span
+            ><a href="https://github.com/tuchanski" target="_blank"
+              >GitHub</a
+            ></span
+          >. Sinta-se livre para visitá-los.
+        </p>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/easylib.html">
+                  <div class="content">
+                    <p class="carousel-name-item">Easy<span>Lib</span> API</p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img src="./img/project-slider/Library.jpg" alt="" />
             </div>
-            <p>
-                Desenvolvedor Full-Stack com experiência em Java, Python, JavaScript/TypeScript, Spring Boot, Flask, React, SQL e APIs REST.
-                Estudante de Ciência da Computação pela PUCPR no 5° período.<br><br>
-                Meu objetivo é aplicar tecnologia de forma criativa e eficiente,
-                contribuindo com projetos que gerem valor para a sociedade.
-            </p>
-        </section>
-
-        <section class="techs" id="techs">
-            <h2>Techs.</h2>
-            <div class="techs-imgs">
-                <a href="https://www.java.com/pt-BR/" target="_blank"><img src="./img/techs-icons/java-icon.svg" alt="Java"></a>
-                <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="./img/techs-icons/springboot-icon.svg" alt="Spring Boot"></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="./img/techs-icons/html-icon.svg" alt="HTML"></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="./img/techs-icons/css-icon.svg" alt="CSS"></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="./img/techs-icons/javascript-icon.svg" alt="JavaScript"></a>
-                <a href="https://react.dev/" target="_blank"><img src="./img/techs-icons/react.svg" alt="React"></a>
-                <a href="https://www.python.org/" target="_blank"><img src="./img/techs-icons/python-icon.svg" alt="Python"></a>
-                <a href="https://www.mysql.com/" target="_blank"><img src="./img/techs-icons/sql-icon.svg" alt="SQL"></a>
-                <a href="https://www.figma.com/" target="_blank"><img src="./img/techs-icons/figma-icon.svg" alt="Figma"></a>
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/zapzap.html">
+                  <div class="content">
+                    <p class="carousel-name-item">
+                      ZapZap <span>Love</span>Bot
+                    </p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img src="./img/projects/ZapZapLoveBot.jpg" alt="" />
             </div>
-        </section>
-
-        <section class="project-carousel" id="projetos">
-            <h2>Projetos.</h2>
-            <p class="carousel-desc">
-                Meus projetos pessoais estão disponíveis via <span><a href="https://github.com/tuchanski" target="_blank">GitHub</a></span>. Sinta-se livre
-                para visitá-los.
-            </p>
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/easylib.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">Easy<span>Lib</span> API</p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-                            </a>
-                        </div>
-                        <img src="./img/project-slider/Library.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/zapzap.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">ZapZap <span>Love</span>Bot</p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-
-                            </a>
-                        </div>
-                        <img src="./img/projects/ZapZapLoveBot.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/dinozoo.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">Dino <span>Zoo</span> Tycoon</p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-
-                            </a>
-                        </div>
-                        <img src="./img/project-slider/DinoZooTycoon.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/eboi.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">e<span>Boi</span></p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-
-                            </a>
-                        </div>
-                        <img src="./img/project-slider/eBoi.jpg" alt="">
-                    </div>
-                    
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/multithread.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">Multithread <span>File</span> Reading</p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-                            </a>
-                        </div>
-                        <img src="./img/project-slider/Multithread File Reading.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/pitiza.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">Pitiza <span>CRUD</span></p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-
-                            </a>
-                        </div>
-                        <img src="./img/project-slider/pitiza.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="get-on-git">
-                            <a href="./projects/banco.html">
-                                <div class="content">
-                                    <p class="carousel-name-item">Banco <span>Object</span></p>
-                                    <img src="./img/project-slider/read-more-icon.svg" alt="" id="click">
-                                </div>
-                            </a>
-                        </div>
-                        <img src="./img/project-slider/BancoObject.jpg" alt="">
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/dinozoo.html">
+                  <div class="content">
+                    <p class="carousel-name-item">
+                      Dino <span>Zoo</span> Tycoon
+                    </p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img src="./img/project-slider/DinoZooTycoon.jpg" alt="" />
             </div>
-        </section>
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/eboi.html">
+                  <div class="content">
+                    <p class="carousel-name-item">e<span>Boi</span></p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img src="./img/project-slider/eBoi.jpg" alt="" />
+            </div>
 
-       <section class="courses" id="educacao">
-        <h2>Educação.</h2>
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/multithread.html">
+                  <div class="content">
+                    <p class="carousel-name-item">
+                      Multithread <span>File</span> Reading
+                    </p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img
+                src="./img/project-slider/Multithread File Reading.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/pitiza.html">
+                  <div class="content">
+                    <p class="carousel-name-item">Pitiza <span>CRUD</span></p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img src="./img/project-slider/pitiza.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <div class="get-on-git">
+                <a href="./projects/banco.html">
+                  <div class="content">
+                    <p class="carousel-name-item">Banco <span>Object</span></p>
+                    <img
+                      src="./img/project-slider/read-more-icon.svg"
+                      alt=""
+                      id="click"
+                    />
+                  </div>
+                </a>
+              </div>
+              <img src="./img/project-slider/BancoObject.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="courses" id="educacao">
+        <h2 data-i18n="courses.title">Educação.</h2>
         <div class="text-courses">
-
-            <!-- Faculdade -->
-            <p>
-            <a href="#" target="_blank" class="link-course">Bacharelado em Ciência da Computação</a>
+          <!-- Faculdade -->
+          <p>
+            <a href="#" target="_blank" class="link-course"
+              >Bacharelado em Ciência da Computação</a
+            >
             <span> · PUCPR</span>
             <small><em>2023 – 2027</em></small>
-            </p>
+          </p>
 
-            <!-- Cursos -->
-            <p>
-            <a href="#" target="_blank" class="link-course">HTML e CSS para Iniciantes</a>
+          <!-- Cursos -->
+          <p>
+            <a href="#" target="_blank" class="link-course"
+              >HTML e CSS para Iniciantes</a
+            >
             <span> · Origamid</span>
             <small><em>2025</em></small>
-            </p>
+          </p>
 
-            <p>
-            <a href="#" target="_blank" class="link-course">UI Design para Iniciantes</a>
+          <p>
+            <a href="#" target="_blank" class="link-course"
+              >UI Design para Iniciantes</a
+            >
             <span> · Origamid</span>
             <small><em>2025</em></small>
-            </p>
+          </p>
 
-            <p>
-            <a href="https://www.udemy.com/certificate/UC-6af4d416-4898-4900-94ca-9dcd2a81dcd4/" target="_blank" class="link-course">Java COMPLETO: Programação Orientada a Objetos + Projetos</a>
+          <p>
+            <a
+              href="https://www.udemy.com/certificate/UC-6af4d416-4898-4900-94ca-9dcd2a81dcd4/"
+              target="_blank"
+              class="link-course"
+              >Java COMPLETO: Programação Orientada a Objetos + Projetos</a
+            >
             <span> · Nelio Alves (Udemy)</span>
             <small><em>2025</em></small>
-            </p>
+          </p>
 
-            <p>
-            <a href="https://www.linkedin.com/in/tuchanski/details/certifications/1714587499273/single-media-viewer/?profileId=ACoAADvjInUBOOkJmM_ATjv2hTFeMTPET9UMilE" target="_blank" class="link-course">Spring Boot for Beginners</a>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/tuchanski/details/certifications/1714587499273/single-media-viewer/?profileId=ACoAADvjInUBOOkJmM_ATjv2hTFeMTPET9UMilE"
+              target="_blank"
+              class="link-course"
+              >Spring Boot for Beginners</a
+            >
             <span> · Amigoscode</span>
             <small><em>2024</em></small>
-            </p>
+          </p>
 
-            <p>
-            <a href="https://loiane.training/certificado/E61rOW17l4QHdom8upVU" target="_blank" class="link-course">Estrutura de Dados com Java</a>
+          <p>
+            <a
+              href="https://loiane.training/certificado/E61rOW17l4QHdom8upVU"
+              target="_blank"
+              class="link-course"
+              >Estrutura de Dados com Java</a
+            >
             <span> · loiane.training</span>
             <small><em>2024</em></small>
-            </p>
+          </p>
 
-            <p>
-            <a href="https://balta.io/certificados/d18fc2b5-55f2-496f-aa50-d9ea1149b874" target="_blank" class="link-course">Fundamentos do SQL Server</a>
+          <p>
+            <a
+              href="https://balta.io/certificados/d18fc2b5-55f2-496f-aa50-d9ea1149b874"
+              target="_blank"
+              class="link-course"
+              >Fundamentos do SQL Server</a
+            >
             <span> · balta.io</span>
             <small><em>2023</em></small>
-            </p>
+          </p>
 
-            <p>
-            <a href="https://balta.io/certificados/7cf6c2e2-8648-499d-95a6-895f65ae26db" target="_blank" class="link-course">Fundamentos da Orientação a Objetos</a>
+          <p>
+            <a
+              href="https://balta.io/certificados/7cf6c2e2-8648-499d-95a6-895f65ae26db"
+              target="_blank"
+              class="link-course"
+              >Fundamentos da Orientação a Objetos</a
+            >
             <span> · balta.io</span>
             <small><em>2023</em></small>
-            </p>
-
+          </p>
         </div>
-        </section>
+      </section>
 
-
-
-        <section class="contact" id="contato">
-            <h2>Contato.</h2>
-            <p>tuchanski <a href="https://github.com/tuchanski" target="_blank"><span class="contact-item">github <img src="./img/contact-item/github-mark/github-mark.svg" alt=""></span></a></p>
-            <p>tuchanski <a href="https://www.linkedin.com/in/tuchanski/" target="_blank"><span class="contact-item">linkedin <img src="./img/contact-item/LinkedIn_logo_In-Black.svg" alt=""></span></a></p>
-            <p>guilherme.tuchanski <a href="https://www.instagram.com/guilherme.tuchanski/" target="_blank"><span class="contact-item">instagram <img src="./img/contact-item/instagram-logo-bold-svgrepo-com.svg" alt=""></span></a></p>
-            <p class="email">guilherme.tuchanski@gmail.com <a href="mailto:guilherme.tuchanski@gmail.com" target="_blank"><span class="contact-item">email <img src="./img/contact-item/mail-pencil-svgrepo-com.svg" alt=""></span></a></p>
-        </section>
+      <section class="contact" id="contato">
+        <h2 data-i18n="contact.title">Contato.</h2>
+        <p>
+          tuchanski
+          <a href="https://github.com/tuchanski" target="_blank"
+            ><span class="contact-item"
+              >github
+              <img
+                src="./img/contact-item/github-mark/github-mark.svg"
+                alt="" /></span
+          ></a>
+        </p>
+        <p>
+          tuchanski
+          <a href="https://www.linkedin.com/in/tuchanski/" target="_blank"
+            ><span class="contact-item"
+              >linkedin
+              <img
+                src="./img/contact-item/LinkedIn_logo_In-Black.svg"
+                alt="" /></span
+          ></a>
+        </p>
+        <p>
+          guilherme.tuchanski
+          <a
+            href="https://www.instagram.com/guilherme.tuchanski/"
+            target="_blank"
+            ><span class="contact-item"
+              >instagram
+              <img
+                src="./img/contact-item/instagram-logo-bold-svgrepo-com.svg"
+                alt="" /></span
+          ></a>
+        </p>
+        <p class="email">
+          guilherme.tuchanski@gmail.com
+          <a href="mailto:guilherme.tuchanski@gmail.com" target="_blank"
+            ><span class="contact-item"
+              >email
+              <img
+                src="./img/contact-item/mail-pencil-svgrepo-com.svg"
+                alt="" /></span
+          ></a>
+        </p>
+      </section>
     </main>
 
     <footer>
-        <p>@ Tuchanski - 2025</p>
+      <p>@ Tuchanski - 2025</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
