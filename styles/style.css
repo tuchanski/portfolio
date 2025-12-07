@@ -453,18 +453,6 @@ footer p {
 
 /* - Responsividade -*/
 
-@media screen and (max-width: 1370px) {
-  .techs-imgs {
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-  }
-
-  .techs-imgs a {
-    margin-left: 3.75rem;
-    margin-right: 3.75rem;
-  }
-}
-
 @media screen and (max-width: 600px) {
   h2 {
     font-size: 8vw !important;
@@ -479,7 +467,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 1208px) {
+@media screen and (max-width: 1370px) {
   html {
     scroll-padding-top: 7.25rem;
   }

@@ -52,14 +52,14 @@ btnMobile.addEventListener("touchstart", toggleMenu);
       "hero.greeting": "Olá, meu nome é",
       "hero.role":
         'Desenvolvedor <span>Full-Stack</span><span id="mbl-breakpoint"></span>',
-      "about.title": "Sobre mim.",
+      "about.title": "Sobre mim",
       "about.body":
         "Desenvolvedor Full-Stack com experiência em Java, Python, JavaScript/TypeScript, Spring Boot, Flask, React, SQL e APIs REST. Estudante de Ciência da Computação pela PUCPR no 5° período.<br><br>Meu objetivo é aplicar tecnologia de forma criativa e eficiente, contribuindo com projetos que gerem valor para a sociedade.",
-      "projects.title": "Projetos.",
+      "projects.title": "Projetos",
       "projects.desc":
         'Meus projetos pessoais estão disponíveis via <span><a href="https://github.com/tuchanski" target="_blank">GitHub</a></span>. Sinta-se livre para visitá-los.',
-      "courses.title": "Educação.",
-      "contact.title": "Contato.",
+      "courses.title": "Educação",
+      "contact.title": "Contato",
       // Courses section
       "courses.degree": "Bacharelado em Ciência da Computação",
       "courses.htmlcss": "HTML e CSS para Iniciantes",
@@ -112,14 +112,14 @@ btnMobile.addEventListener("touchstart", toggleMenu);
       "hero.greeting": "Hello, my name is",
       "hero.role":
         '<span>Full-Stack</span> Developer<span id="mbl-breakpoint"></span>',
-      "about.title": "About me.",
+      "about.title": "About me",
       "about.body":
         "Full-Stack developer experienced with Java, Python, JavaScript/TypeScript, Spring Boot, Flask, React, SQL, and REST APIs. Computer Science student at PUCPR, 5th semester.<br><br>My goal is to apply technology creatively and efficiently, contributing to projects that create value for society.",
-      "projects.title": "Projects.",
+      "projects.title": "Projects",
       "projects.desc":
         'My personal projects are available on <span><a href="https://github.com/tuchanski" target="_blank">GitHub</a></span>. Feel free to check them out.',
-      "courses.title": "Education.",
-      "contact.title": "Contact.",
+      "courses.title": "Education",
+      "contact.title": "Contact",
       // Courses section
       "courses.degree": "Bachelor of Computer Science",
       "courses.htmlcss": "HTML and CSS for Beginners",
