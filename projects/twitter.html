@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tuchanski.dev | Twitter-like API</title>
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/svg+xml"
+      href="../img/Igloo_Emoticon.webp"
+    />
+  </head>
+
+  <body>
+    <nav id="nav">
+      <a href="../index.html">
+        <img src="../img/marca.svg" alt="" class="logo" />
+      </a>
+      <button id="btn-mobile"><span id="hamburger"></span></button>
+      <ul class="nav-list" id="menu">
+        <li>
+          <a href="../index.html#sobre"
+            ><span data-i18n="nav.about">Sobre</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#techs"
+            ><span data-i18n="nav.techs">Techs</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#projetos"
+            ><span data-i18n="nav.projects">Projetos</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#educacao"
+            ><span data-i18n="nav.education">Educação</span></a
+          >
+        </li>
+        <li>
+          <a href="../index.html#contato"
+            ><span data-i18n="nav.contact">Contato</span></a
+          >
+        </li>
+        <li>
+          <button id="lang-btn" class="nav-lang" aria-label="Mudar idioma">
+            EN
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="text-block">
+        <h1 data-i18n="project.twitterApi.title">
+          Twitter-like <span>API</span> 🐦
+        </h1>
+
+        <p id="desc" data-i18n="project.twitterApi.desc">
+          Uma REST API educacional e em estilo de produção, inspirada no
+          Twitter/X. Implementa usuários, tweets, likes, comentários e sistema
+          de seguidores, usando Spring Boot moderno, autenticação JWT stateless
+          e persistência MySQL.
+        </p>
+
+        <p>
+          <span id="techs" data-i18n="project.techsLabel">techs:</span>
+          <span>Java 21 + Spring Boot 3</span>,
+          <span>Spring Security (JWT)</span>, <span>Hibernate/JPA</span>,
+          <span>MySQL</span>
+        </p>
+
+        <div class="button">
+          <a
+            href="https://github.com/tuchanski/twitter-like-api"
+            target="_blank"
+            id="github-button"
+            data-i18n="project.repoBtn"
+          >
+            Repositório GitHub
+          </a>
+        </div>
+      </div>
+
+      <img
+        src="../img/project-slider/twitter-like-api.jpg"
+        alt="Twitter-like API preview"
+      />
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

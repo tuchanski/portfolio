@@ -102,6 +102,8 @@ btnMobile.addEventListener("touchstart", toggleMenu);
       "project.zapzap.title": 'ZapZap <span id="api">Love</span>Bot 💚',
       "project.zapzap.desc":
         'Um bot simples, fofo e automatizado que usa <span id="underline">inteligência artificial</span> para gerar mensagens carinhosas e enviá-las pelo <span id="underline">WhatsApp</span>. Ideal para impressionar sua namorada.',
+      // Twitter Like API
+      "project.twitterApi.desc": 'Uma REST API educacional e em estilo de produção, inspirada no Twitter/X. Implementa usuários, tweets, likes, comentários e sistema de seguidores, usando Spring Boot moderno, autenticação JWT stateless e persistência MySQL.',
     },
     en: {
       "nav.about": "About",
@@ -161,6 +163,8 @@ btnMobile.addEventListener("touchstart", toggleMenu);
       "project.zapzap.title": 'ZapZap <span id="api">Love</span>Bot 💚',
       "project.zapzap.desc":
         'A simple, cute, automated bot using <span id="underline">artificial intelligence</span> to generate affectionate messages and send them via <span id="underline">WhatsApp</span>. Perfect to impress your girlfriend.',
+      // Twitter Like API
+      "project.twitterApi.desc": "An educational, production-style REST API inspired by Twitter/X. It implements core social features (users, tweets, likes, comments, follows) using modern Spring Boot, stateless JWT authentication, and MySQL persistence."
     },
   };
 
